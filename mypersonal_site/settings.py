@@ -128,14 +128,14 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 # Email settings
-EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_PORT = '587'
-EMAIL_HOST_USER = 'jgivenson@gmail.com'
-EMAIL_HOST_PASSWORD = 'tnypfiegqcpjdrxr'
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+# EMAIL_HOST = 'smtp.gmail.com'
+# EMAIL_PORT = '587'
+# EMAIL_HOST_USER = 'jgivenson@gmail.com'
+# EMAIL_HOST_PASSWORD = 'tnypfiegqcpjdrxr'
+# EMAIL_USE_TLS = True
+# EMAIL_USE_SSL = False
 
-DEFAULT_FROM_EMAIL = 'june.mphahlele@gmail.com'
+# DEFAULT_FROM_EMAIL = 'june.mphahlele@gmail.com'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
