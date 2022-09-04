@@ -29,10 +29,6 @@
         <div class="row">
           <div class="col-md-6">
             <div class="top_left_cont intro zoomIn wow animated">
-			{% if fullname %} 
-			<p>Thank you {{fullname}} for your email, we'll get back to you shortly...!<br/></p>
-				
-			{% endif %}
               <h2>Thobela, I am June <br/> <strong>Full Stack Developer</strong></h2>
               <p>
 				Performance-driven full-stack software developer experienced specialising in web-based application development. Designed and developed applications across multiple APIs, and databases. Adept at finding solutions to ensure customer satisfaction. Experienced in providing technical guidance at all stages of the software development life cycle. Demonstrated track record of developing efficient, scalable client-facing applications for the public sector, higher education, and private sector clients. Ability to balance the changing needs of clients.
@@ -395,7 +391,7 @@
                             </div>
                             <div class="detail">
                                 <h4>Email</h4>
-                                <p>june.mphahleleatamildotcom</p>
+                                <p>jsomeematamildotcom</p>
                             </div> 
                         </div>
        		  
@@ -411,8 +407,7 @@
         <div class="col-lg-8 wow fadeInLeft delay-06s">
          	  <!--NOTE: Update your email Id in "contact_me.php" file in order to receive emails from your contact form-->
         
-		<form name="sentMessage" action="{% url 'home' %}" id="contactForm" method="POST" novalidate> 
-			{% csrf_token %}
+		<form name="sentMessage" id="contactForm" novalidate> 
 		 <div class="control-group">
                     <div class="controls">
 			<input type="text" class="form-control" 
